@@ -1,0 +1,38 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "back end for celebrity doa build week project",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js",
+    "test": "cross-env DB_ENV=testing jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/build-week-celebrity/back-end.git"
+  },
+  "author": "Joscelyn Owen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/build-week-celebrity/back-end/issues"
+  },
+  "homepage": "https://github.com/build-week-celebrity/back-end#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.20.0",
+    "knex": "^0.19.2",
+    "sqlite3": "^4.1.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  }
+}
