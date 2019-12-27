@@ -80,6 +80,60 @@ const celebs = [
     ageDied: null,
     imageURL:
       "https://upload.wikimedia.org/wikipedia/commons/b/b0/William_Shatner_-_1958.jpg"
+  },
+  {
+    id: 10,
+    name: "Mary Tyler Moore",
+    isAlive: 0,
+    yearDied: 2017,
+    ageDied: 80,
+    imageURL:
+      "https://upload.wikimedia.org/wikipedia/en/d/dc/Mary_Tyler_Moore_-_1978.jpg"
+  },
+  {
+    id: 11,
+    name: "Lucille Ball",
+    isAlive: 0,
+    yearDied: 1989,
+    ageDied: 77,
+    imageURL:
+      "https://upload.wikimedia.org/wikipedia/commons/3/38/LDBALL1950s.jpg"
+  },
+  {
+    id: 12,
+    name: "Cindy Williams",
+    isAlive: 1,
+    yearDied: null,
+    ageDied: null,
+    imageURL:
+      "https://upload.wikimedia.org/wikipedia/commons/b/bd/Cindy_Williams.JPG"
+  },
+  {
+    id: 13,
+    name: "Penny Marshall",
+    isAlive: 0,
+    yearDied: 2018,
+    ageDied: 75,
+    imageURL:
+      "https://upload.wikimedia.org/wikipedia/commons/4/43/Penny_Marshall_1976.jpg"
+  },
+  {
+    id: 14,
+    name: "Goldie Hawn",
+    isAlive: 1,
+    yearDied: null,
+    ageDied: null,
+    imageURL:
+      "https://en.wikipedia.org/wiki/Goldie_Hawn#/media/File:Goldie_Hawn_-_1978.jpg"
+  },
+  {
+    id: 15,
+    name: "Ted Danson",
+    isAlive: 1,
+    yearDied: null,
+    ageDied: null,
+    imageURL:
+      "https://upload.wikimedia.org/wikipedia/commons/b/bf/Ted_Danson_2008_number_2.jpg"
   }
 ];
 router.get("/", (req, res) => {});
