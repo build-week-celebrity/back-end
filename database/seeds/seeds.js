@@ -1,7 +1,6 @@
 exports.seed = function(knex) {
   return knex("celebrities")
-    .truncate()
-    .then(() => knex("users").truncate())
+    .del()
     .then(() => {
       return knex("celebrities").insert([
         {
@@ -142,6 +141,11 @@ exports.seed = function(knex) {
       ]);
     })
     .then(() => {
-      return knex("users").insert([{ name: "joscelyn", password: "pikachu" }]);
+      return knex("users").del();
+    })
+    .then(() => {
+      return knex("users").insert([
+        { username: "joscelyn", password: "pikachu" }
+      ]);
     });
 };
