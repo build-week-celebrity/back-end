@@ -1,7 +1,6 @@
 exports.seed = function(knex) {
-  return knex("ingredient")
+  return knex("celebrities")
     .truncate()
-    .then(() => knex("celebrities").truncate())
     .then(() => knex("users").truncate())
     .then(() => {
       return knex("celebrities").insert([
