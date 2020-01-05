@@ -39,5 +39,6 @@ module.exports = {
   getCelebrities,
   getCelebrityById,
   insertCelebrity,
-  removeCelebrity
+  removeCelebrity,
+  updateCelebrity
 };

@@ -1,7 +1,13 @@
 const router = require("express").Router();
 
+const Celebs = require("./celebrities-model.js");
+
 router.get("/", (req, res) => {
-  res.status(200).json({ api: "up" });
+  Celebs.getCelebrities()
+    .then(celebs => {
+      res.status(200).json(celebs);
+    })
+    .catch(err => res.send(err));
 });
 
 module.exports = router;
