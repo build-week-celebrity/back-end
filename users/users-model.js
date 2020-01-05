@@ -1,4 +1,4 @@
-const db = require("../database/dbConfig.js");
+const db = require("../database/db.js");
 
 module.exports = {
   addUser,
@@ -22,16 +22,16 @@ function findByName(name) {
   return db("users").where("username", name);
 }
 
-async function addUser(user) {
-  const [id] = await db("users").insert(user);
-
-  return findById(id);
-}
-
 function findById(id) {
   return db("users")
     .where({ id })
     .first();
+}
+
+async function addUser(user) {
+  const [id] = await db("users").insert(user);
+
+  return findById(id);
 }
 
 function deleteUser(id) {

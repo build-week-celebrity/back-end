@@ -28,16 +28,17 @@ function removeCelebrity(id) {
 
 // update celeb
 
-function updateCelebrity(id) {
+function updateCelebrity(id, changes) {
   return db("celebrities")
     .where("id", id)
     .update(changes)
-    .then(count => (count > 0 ? this.get(id) : null));
+    .then(count => (count > 0 ? getCelebrityById(id) : null));
 }
 
 module.exports = {
   getCelebrities,
   getCelebrityById,
   insertCelebrity,
-  removeCelebrity
+  removeCelebrity,
+  updateCelebrity
 };
