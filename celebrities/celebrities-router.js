@@ -54,9 +54,9 @@ router.post("/", (req, res) => {
 router.put("/:id", validateCelebId, (req, res) => {
   const { id } = req.params;
   const { name, isAlive, yearDied, ageDied, imageURL } = req.body;
-  if (!name || typeof isAlive !== "boolean") {
+  if (typeof isAlive !== "boolean") {
     return res.status(400).json({
-      error: 'Needs name and isAlive value. "isAlive" must be a boolean'
+      error: 'isAlive" must be a boolean'
     });
   }
   Celebs.updateCelebrity(id, { name, isAlive, yearDied, ageDied, imageURL })
