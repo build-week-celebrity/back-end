@@ -146,9 +146,9 @@ exports.seed = function(knex) {
     .then(() => {
       return knex("users").insert([
         {
-          email: "joscelyn@email.com",
-          username: "joscelyn",
-          password: "pikachu",
+          email: "admin@email.com",
+          username: "admin",
+          password: "admin",
           score: 100
         }
       ]);
