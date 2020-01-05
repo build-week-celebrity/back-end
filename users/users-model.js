@@ -23,9 +23,7 @@ function findByName(name) {
 }
 
 function findById(id) {
-  return db("users")
-    .where({ id })
-    .first();
+  return db("users").where("id", id);
 }
 
 async function addUser(user) {
@@ -44,5 +42,5 @@ function updateUser(id, changes) {
   return db("users")
     .where("id", id)
     .update(changes)
-    .then(count => (count > 0 ? this.get(id) : null));
+    .then(count => (count > 0 ? findById(id) : null));
 }

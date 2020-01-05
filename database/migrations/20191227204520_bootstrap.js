@@ -16,10 +16,7 @@ exports.up = function(knex) {
         .notNullable()
         .unique();
       users.string("password").notNullable();
-      users
-        .string("email")
-        .notNullable()
-        .unique();
+      users.string("email").unique();
       users.integer("score");
     });
 };
