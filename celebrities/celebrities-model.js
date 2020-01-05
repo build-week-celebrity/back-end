@@ -1,41 +1,43 @@
 const db = require("../database/db.js");
 
-function getResources() {
-  return db("resources");
+// get all celebs
+function getCelebrities() {
+  return db("celebrities");
 }
 
-function getProjects() {
-  return db("projects");
+// get specific celeb
+function getCelebrityById(id) {
+  return db("celebrities")
+    .where({ id })
+    .first();
 }
 
-function getTasks() {
-  return db("tasks");
+// insert celeb
+function insertCelebrity(celeb) {
+  return db("celebrities")
+    .insert(celeb, "id")
+    .then(([id]) => getCelebrityById(id));
 }
 
-function insertResource(resource) {
-  return db("resources")
-    .insert(resource, "id")
-    .then(([id]) =>
-      getResources()
-        .where({ "resources.id": id })
-        .first()
-    );
+// remove celeb
+function removeCelebrity(id) {
+  return db("celebrities")
+    .where("id", id)
+    .del();
 }
 
-function insertProject(project) {
-  return db("projects")
-    .insert(project, "id")
-    .then(([id]) =>
-      getProjects()
-        .where({ "projects.id": id })
-        .first()
-    );
+// update celeb
+
+function updateCelebrity(id) {
+  return db("celebrities")
+    .where("id", id)
+    .update(changes)
+    .then(count => (count > 0 ? this.get(id) : null));
 }
 
 module.exports = {
-  getResources,
-  getProjects,
-  getTasks,
-  insertResource,
-  insertProject
+  getCelebrities,
+  getCelebrityById,
+  insertCelebrity,
+  removeCelebrity
 };

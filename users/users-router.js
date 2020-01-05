@@ -30,6 +30,10 @@ router.get("/:id", validateUserId, (req, res) => {
   res.status(200).json(req.user);
 });
 
+// remove a user
+
+// edit a user
+
 // Middleware
 
 function validateUserId(req, res, next) {
