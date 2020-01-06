@@ -1,9 +1,9 @@
 # back-end
 
-# Documentation also published here: https://documenter.getpostman.com/view/9974280/SWLe7TMe?version=latest
+### Documentation also published here: https://documenter.getpostman.com/view/9974280/SWLe7TMe?version=latest
 
 
-# GET all celebrities
+## GET all celebrities
 
 https://celeb-doa-api.herokuapp.com/api/celebrities/
 You can get an array of all the celebrities at: https://celeb-doa-api.herokuapp.com/api/celebrities/
@@ -20,7 +20,7 @@ curl --location --request GET 'https://celeb-doa-api.herokuapp.com/api/celebriti
 
 
 
-# GET get individual celebrity
+## GET get individual celebrity
 https://celeb-doa-api.herokuapp.com/api/celebrities/:id
 You can get an individual celebrity by passing in the id.
 
@@ -36,7 +36,7 @@ get individual celebrity
 curl --location --request GET 'https://celeb-doa-api.herokuapp.com/api/celebrities/'
 
 
-# DEL delete celebrity
+## DEL delete celebrity
 https://celeb-doa-api.herokuapp.com/api/celebrities/:id
 You can delete an individual celebrity by passing in the id.
 
@@ -52,7 +52,7 @@ delete celebrity
 curl --location --request DELETE 'https://celeb-doa-api.herokuapp.com/api/celebrities/'
 
 
-# PUT edit celebrity
+## PUT edit celebrity
 https://celeb-doa-api.herokuapp.com/api/celebrities/:id
 pass in the id of the celebrity you want to edit and add an object containing the properties you want to change. isAlive must be a boolean value.
 
@@ -65,7 +65,7 @@ curl --location --request PUT 'https://celeb-doa-api.herokuapp.com/api/celebriti
 
 
 
-# POST add celebrity
+## POST add celebrity
 https://celeb-doa-api.herokuapp.com/api/celebrities/
 you can add a celebrity by posting a celebrity object to here: https://celeb-doa-api.herokuapp.com/api/celebrities/
 
@@ -77,7 +77,7 @@ curl --location --request POST 'https://celeb-doa-api.herokuapp.com/api/celebrit
 
 
 
-# GET get users
+## GET get users
 https://celeb-doa-api.herokuapp.com/api/users
 with authorization you can get a list of users at: https://celeb-doa-api.herokuapp.com/api/users
 
@@ -93,7 +93,7 @@ curl --location --request GET 'https://celeb-doa-api.herokuapp.com/api/users'
 
 
 
-# POST register user
+## POST register user
 https://celeb-doa-api.herokuapp.com/api/auth/register
 can register user by posting user object to here:
 
@@ -112,7 +112,7 @@ register user
 curl --location --request POST 'https://celeb-doa-api.herokuapp.com/api/auth/register'
 
 
-# POST login
+## POST login
 https://celeb-doa-api.herokuapp.com/api/auth/login
 user can login by making post request to https://celeb-doa-api.herokuapp.com/api/auth/login
 
@@ -125,7 +125,7 @@ login
 curl --location --request POST 'https://celeb-doa-api.herokuapp.com/api/auth/login'
 
 
-# DEL delete user
+## DEL delete user
 https://celeb-doa-api.herokuapp.com/api/users/:id
 with authorization you can delete a user by making delete request to: https://celeb-doa-api.herokuapp.com/api/users/:id
 
@@ -140,7 +140,7 @@ curl --location --request DELETE 'https://celeb-doa-api.herokuapp.com/api/users/
 
 
 
-# PUT edit user
+## PUT edit user
 https://celeb-doa-api.herokuapp.com/api/users/:id
 With authorization you can edit a user by making a put request to https://celeb-doa-api.herokuapp.com/api/users/:id
 
