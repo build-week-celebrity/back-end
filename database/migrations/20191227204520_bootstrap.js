@@ -7,6 +7,7 @@ exports.up = function(knex) {
       tbl.integer("ageDied");
       tbl.boolean("isAlive").notNullable();
       tbl.string("imageURL");
+      tbl.string("difficulty");
     })
 
     .createTable("users", users => {
