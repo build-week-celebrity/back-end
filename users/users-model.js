@@ -7,11 +7,16 @@ module.exports = {
   find,
   findBy,
   findById,
-  findByName
+  findByName,
+  findWithoutId
 };
 
 function find() {
-  return db("users").select("id", "username");
+  return db("users").select("id", "username", "score");
+}
+
+function findWithoutId() {
+  return db("users").select("username", "score");
 }
 
 function findBy(filter) {
@@ -19,11 +24,15 @@ function findBy(filter) {
 }
 
 function findByName(name) {
-  return db("users").where("username", name);
+  return db("users")
+    .where("username", name)
+    .select("username", "score", "id");
 }
 
 function findById(id) {
-  return db("users").where("id", id);
+  return db("users")
+    .where("id", id)
+    .select("username", "score", "id");
 }
 
 async function addUser(user) {
