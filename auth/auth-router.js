@@ -25,9 +25,12 @@ router.post("/login", (req, res) => {
   Users.findBy({ username })
     .first()
     .then(user => {
+      const id = user.id;
+      const username = user.username;
+      const score = user.score;
       if (user && bcrypt.compareSync(password, user.password)) {
         const token = generateToken(user);
-        res.status(200).json({ token });
+        res.status(200).json({ token, id, username, score });
       } else {
         res.status(401).json({ message: "Invalid Credentials" });
       }
