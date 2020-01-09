@@ -18,7 +18,7 @@ describe("users", () => {
         "Authorization",
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Impvc2NlbHluIiwiaWF0IjoxNTc4NTg4OTE4LCJleHAiOjE1Nzg2NzUzMTh9.XO_b95AJFd93jEc65xi68KIYE1BZa0Y_NU55_UNhOJQ"
       );
-    console.log(res.body, res.status, "res");
+    //console.log(res.body, res.status, "res");
     expect(res.status).toBe(200);
   });
 
@@ -30,6 +30,7 @@ describe("users", () => {
         "Authorization",
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Impvc2NlbHluIiwiaWF0IjoxNTc4NTg4OTE4LCJleHAiOjE1Nzg2NzUzMTh9.XO_b95AJFd93jEc65xi68KIYE1BZa0Y_NU55_UNhOJQ"
       );
+
     console.log(res.body, res.status, "res");
     expect(res.status).toBe(200);
   });
