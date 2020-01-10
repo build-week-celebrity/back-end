@@ -26,14 +26,14 @@ router.get("/", restricted, (req, res) => {
 
 // // get user based on id -- works
 
-// router.get("/:id", validateUserId, restricted, (req, res) => {
-//   const id = req.params.id;
-//   Users.findById(id)
-//     .then(user => {
-//       res.status(200).json({ user, loggedInUser: req.user.username });
-//     })
-//     .catch(err => res.send(err));
-// });
+router.get("/:id", validateUserId, restricted, (req, res) => {
+  const id = req.params.id;
+  Users.findById(id)
+    .then(user => {
+      res.status(200).json({ user, loggedInUser: req.user.username });
+    })
+    .catch(err => res.send(err));
+});
 
 // remove a user -- works
 
