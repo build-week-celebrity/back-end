@@ -8,7 +8,7 @@
 https://celeb-doa-api.herokuapp.com/api/celebrities/
 You can get an array of all the celebrities at: https://celeb-doa-api.herokuapp.com/api/celebrities/
 
-The seed data makes the following array:
+The array is structured like this:
 
 [ { "id": 2, "name": "Paul McCartney", "yearDied": null, "ageDied": null, "isAlive": 1, "imageURL": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Paul_McCartney_in_October_2018.jpg" }, { "id": 3, "name": "Adam West", "yearDied": 2017, "ageDied": 88, "isAlive": 0, "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Adam_West_by_Gage_Skidmore_3.jpg" }, { "id": 4, "name": "David Hasselhoff", "yearDied": null, "ageDied": null, "isAlive": 1, "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Hoff_3.jpg" }, { "id": 5, "name": "Dick Van Dyke", "yearDied": null, "ageDied": null, "isAlive": 1, "imageURL": "https://upload.wikimedia.org/wikipedia/commons/2/20/Mary_Poppins3.jpg" }, { "id": 6, "name": "Roger Moore", "yearDied": 2017, "ageDied": 89, "isAlive": 0, "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Sir_Roger_Moore_3.jpg" }, { "id": 7, "name": "Charlton Heston", "yearDied": 2008, "ageDied": 84, "isAlive": 0, "imageURL": "https://upload.wikimedia.org/wikipedia/commons/9/90/Charlton_Heston_in_Ben_Hur_trailer.jpg" }, { "id": 8, "name": "Leonard Nimoy", "yearDied": 2015, "ageDied": 83, "isAlive": 0, "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Leonard_Nimoy_1975.jpg" }, { "id": 9, "name": "William Shatner", "yearDied": null, "ageDied": null, "isAlive": 1, "imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/b0/William_Shatner_-_1958.jpg" }, { "id": 10, "name": "Mary Tyler Moore", "yearDied": 2017, "ageDied": 80, "isAlive": 0, "imageURL": "https://upload.wikimedia.org/wikipedia/en/d/dc/Mary_Tyler_Moore_-_1978.jpg" }, { "id": 11, "name": "Lucille Ball", "yearDied": 1989, "ageDied": 77, "isAlive": 0, "imageURL": "https://upload.wikimedia.org/wikipedia/commons/3/38/LDBALL1950s.jpg" }, { "id": 12, "name": "Cindy Williams", "yearDied": null, "ageDied": null, "isAlive": 1, "imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Cindy_Williams.JPG" }, { "id": 13, "name": "Penny Marshall", "yearDied": 2018, "ageDied": 75, "isAlive": 0, "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/43/Penny_Marshall_1976.jpg" }, { "id": 14, "name": "Goldie Hawn", "yearDied": null, "ageDied": null, "isAlive": 1, "imageURL": "https://en.wikipedia.org/wiki/Goldie_Hawn#/media/File:Goldie_Hawn_-_1978.jpg" }, { "id": 15, "name": "Ted Danson", "yearDied": null, "ageDied": null, "isAlive": 1, "imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Ted_Danson_2008_number_2.jpg" } ]
 
@@ -86,10 +86,22 @@ return object looks like this:
 { "users": [ { "id": 1, "username": "admin" } ], "loggedInUser": "joscelyn" }
 
 
-
 Example Request
 get users
 curl --location --request GET 'https://celeb-doa-api.herokuapp.com/api/users'
+
+## GET individual user
+https://celeb-doa-api.herokuapp.com/api/users/:id
+With authorization you can get a single user by making a get request to https://celeb-doa-api.herokuapp.com/api/users/:id
+
+pass in the id of the user you want to edit. 
+
+user object looks like: { "id": 3, "username": "admin", "password": "admin4", "email": "email", "score": 70 }
+
+PATH VARIABLES
+id
+
+
 
 
 
