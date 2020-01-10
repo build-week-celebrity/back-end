@@ -25,6 +25,6 @@ describe("celebrities", () => {
     const res = await request(server).get("/api/celebrities");
     expect(res.status).toBe(200);
     expect(authenticate).not.toBeCalled();
-    expect(res.body).toHaveLength(15);
+    expect(res.body).toHaveLength(86);
   });
 });
