@@ -9,7 +9,7 @@ exports.seed = function(knex) {
           yearDied: 2017,
           ageDied: 77,
           imageURL:
-            "https://en.wikipedia.org/wiki/Chuck_Berry#/media/File:Chuck_Berry_1957.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/c/ca/Chuck-berry-2007-07-18.jpg",
           difficulty: "medium"
         },
         {
@@ -18,7 +18,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Paul_McCartney#/media/File:Paul_McCartney_in_October_2018.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/d/d6/Paul_McCartney_in_October_2018.jpg",
           difficulty: "easy"
         },
         {
@@ -27,7 +27,7 @@ exports.seed = function(knex) {
           yearDied: 2017,
           ageDied: 88,
           imageURL:
-            "https://en.wikipedia.org/wiki/Adam_West#/media/File:Adam_West_by_Gage_Skidmore_3.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Adam_West_by_Gage_Skidmore_3.jpg/1920px-Adam_West_by_Gage_Skidmore_3.jpg",
           difficulty: "easy"
         },
         {
@@ -36,7 +36,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/David_Hasselhoff#/media/File:Hoff_3.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Hoff_3.jpg/220px-Hoff_3.jpg",
           difficulty: "easy"
         },
         {
@@ -45,7 +45,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Dick_Van_Dyke#/media/File:Dick_Van_Dyke_by_Gage_Skidmore.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Dick_Van_Dyke_by_Gage_Skidmore.jpg/250px-Dick_Van_Dyke_by_Gage_Skidmore.jpg",
           difficulty: "medium"
         },
         {
@@ -54,7 +54,7 @@ exports.seed = function(knex) {
           yearDied: 2017,
           ageDied: 89,
           imageURL:
-            "https://en.wikipedia.org/wiki/Roger_Moore#/media/File:Sir_Roger_Moore_3.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/a/a3/Roger_Moore_2014.jpg",
           difficulty: "medium"
         },
         {
@@ -63,7 +63,7 @@ exports.seed = function(knex) {
           yearDied: 2008,
           ageDied: 84,
           imageURL:
-            "https://en.wikipedia.org/wiki/Charlton_Heston#/media/File:CharltonHeston1981_2_crop.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Charlton_Heston_Civil_Rights_March_1963.jpg/1200px-Charlton_Heston_Civil_Rights_March_1963.jpg",
           difficulty: "easy"
         },
         {
@@ -72,7 +72,7 @@ exports.seed = function(knex) {
           yearDied: 2015,
           ageDied: 83,
           imageURL:
-            "https://en.wikipedia.org/wiki/Leonard_Nimoy#/media/File:Leonard_Nimoy_by_Gage_Skidmore.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/2/23/Leonard_Nimoy_mid_1960s.JPG",
           difficulty: "easy"
         },
         {
@@ -80,7 +80,8 @@ exports.seed = function(knex) {
           isAlive: 1,
           yearDied: null,
           ageDied: null,
-          imageURL: "https://en.wikipedia.org/wiki/William_Shatner",
+          imageURL:
+            "https://upload.wikimedia.org/wikipedia/commons/4/48/William_Shatner_2018.jpg",
           difficulty: "easy"
         },
         {
@@ -89,7 +90,7 @@ exports.seed = function(knex) {
           yearDied: 2017,
           ageDied: 80,
           imageURL:
-            "https://en.wikipedia.org/wiki/Mary_Tyler_Moore#/media/File:Mary_Tyler_Moore_Show_in_1977.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Mary_Tyler_Moore_%281967%29.jpg/1200px-Mary_Tyler_Moore_%281967%29.jpg",
           difficulty: "hard"
         },
         {
@@ -98,7 +99,7 @@ exports.seed = function(knex) {
           yearDied: 1989,
           ageDied: 77,
           imageURL:
-            "https://en.wikipedia.org/wiki/Lucille_Ball#/media/File:LDBALL1950s.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/3/38/LDBALL1950s.jpg",
           difficulty: "hard"
         },
         {
@@ -107,7 +108,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Cindy_Williams#/media/File:Cindy_Williams.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/b/bd/Cindy_Williams.JPG",
           difficulty: "medium"
         },
         {
@@ -116,7 +117,7 @@ exports.seed = function(knex) {
           yearDied: 2018,
           ageDied: 75,
           imageURL:
-            "https://en.wikipedia.org/wiki/Penny_Marshall#/media/File:Penny_Marshall_1976.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/f/f5/Penny_Marshall_1976.png",
           difficulty: "easy"
         },
         {
@@ -125,7 +126,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Goldie_Hawn#/media/File:Goldie_Hawn_-_1978.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Goldie_Hawn_2011.jpg/220px-Goldie_Hawn_2011.jpg",
           difficulty: "easy"
         },
         {
@@ -134,7 +135,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Ted_Danson#/media/File:'The_Good_Place'_cast_and_crew_visit_San_Diego_Comic_Con_for_a_panel_(43100198314)_(cropped).jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Ted_Danson_2010.jpg/220px-Ted_Danson_2010.jpg",
           difficulty: "easy"
         },
         {
@@ -143,7 +144,7 @@ exports.seed = function(knex) {
           yearDied: 2009,
           ageDied: 32,
           imageURL:
-            "https://en.wikipedia.org/wiki/Brittany_Murphy#/media/File:Brittany_Murphy.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Brittany_Murphy_at_Happy_Feet_premiere_(cropped).jpg/190px-Brittany_Murphy_at_Happy_Feet_premiere_(cropped).jpg",
           difficulty: "hard"
         },
         {
@@ -152,7 +153,7 @@ exports.seed = function(knex) {
           yearDied: 2003,
           ageDied: 27,
           imageURL:
-            "https://en.wikipedia.org/wiki/Jonathan_Brandis#/media/File:Jonathan_Brandis_Wiki.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Jonathan_Brandis_Wiki.jpg/220px-Jonathan_Brandis_Wiki.jpg",
           difficulty: "hard"
         },
         {
@@ -161,7 +162,7 @@ exports.seed = function(knex) {
           yearDied: 2008,
           ageDied: 25,
           imageURL:
-            "https://en.wikipedia.org/wiki/Brad_Renfro#/media/File:Brad_Renfro_in_Apt_Pupil.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/1/19/Brad_Renfro_mug_shot.jpg",
           difficulty: "hard"
         },
         {
@@ -170,7 +171,7 @@ exports.seed = function(knex) {
           yearDied: 2006,
           ageDied: 40,
           imageURL:
-            "https://en.wikipedia.org/wiki/Chris_Penn#/media/File:Chris_Penn.jpg",
+            "https://upload.wikimedia.org/wikipedia/en/3/32/Chris_Penn.jpg",
           difficulty: "hard"
         },
         {
@@ -179,7 +180,7 @@ exports.seed = function(knex) {
           yearDied: 2008,
           ageDied: 50,
           imageURL:
-            "https://en.wikipedia.org/wiki/Bernie_Mac#/media/File:BernieMacSoulMenMarch08.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/1/11/BernieMacTransformersPremiereJune07.jpg",
           difficulty: "easy"
         },
         {
@@ -188,7 +189,7 @@ exports.seed = function(knex) {
           yearDied: 2013,
           ageDied: 29,
           imageURL:
-            "https://en.wikipedia.org/wiki/Lee_Thompson_Young#/media/File:Lee_Thompson_Young.jpg",
+            "https://upload.wikimedia.org/wikipedia/en/8/85/Lee_Thompson_Young.jpg",
           difficulty: "medium"
         },
         {
@@ -197,7 +198,7 @@ exports.seed = function(knex) {
           yearDied: 1999,
           ageDied: 34,
           imageURL:
-            'https://en.wikipedia.org/wiki/Dana_Plato#/media/File:Dana_Plato_on_the_set_of_television_show_"Diff\'rent_Strokes"_1983-03-09.jpg',
+            "https://upload.wikimedia.org/wikipedia/pt/a/a8/Dana_Plato.jpg",
           difficulty: "hard"
         },
         {
@@ -206,7 +207,7 @@ exports.seed = function(knex) {
           yearDied: 2014,
           ageDied: 69,
           imageURL:
-            "https://en.wikipedia.org/wiki/Harold_Ramis#/media/File:Harold_Ramis_Oct_2009.jpg",
+            "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Harold_Ramis_as_Egon_Spengler.jpg/250px-Harold_Ramis_as_Egon_Spengler.jpg",
           difficulty: "medium"
         },
         {
@@ -215,7 +216,7 @@ exports.seed = function(knex) {
           yearDied: 1982,
           ageDied: 22,
           imageURL:
-            "https://en.wikipedia.org/wiki/Dominique_Dunne#/media/File:Ellen_Griffin_Dunne_and_Dominique_Dunne.png",
+            "http://4.bp.blogspot.com/-B0-zDcNi2RQ/ThuUUqsib5I/AAAAAAAAAJ0/w1OSvFYApoY/s1600/dunne-d-color.JPG",
           difficulty: "hard"
         },
         {
@@ -224,7 +225,7 @@ exports.seed = function(knex) {
           yearDied: 2013,
           ageDied: 43,
           imageURL:
-            "https://en.wikipedia.org/wiki/Lisa_Robin_Kelly#/media/File:Lisa_Robin_Kelly.jpg",
+            "https://upload.wikimedia.org/wikipedia/en/d/d8/Lisa_Robin_Kelly.jpg",
           difficulty: "hard"
         },
         {
@@ -233,7 +234,7 @@ exports.seed = function(knex) {
           yearDied: 2013,
           ageDied: 68,
           imageURL:
-            "https://en.wikipedia.org/wiki/James_Avery_(actor)#/media/File:James_Avery.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/6/67/James_Avery_HAL_Awards_%28cropped%29.jpg",
           difficulty: "medium"
         },
         {
@@ -242,7 +243,7 @@ exports.seed = function(knex) {
           yearDied: 2012,
           ageDied: 54,
           imageURL:
-            "https://en.wikipedia.org/wiki/Michael_Clarke_Duncan#/media/File:MichaelClarkeDuncanJan09.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/e/e5/MichaelClarkeDuncanJan09_%282%29.jpg",
           difficulty: "medium"
         },
         {
@@ -251,7 +252,7 @@ exports.seed = function(knex) {
           yearDied: 2009,
           ageDied: 50,
           imageURL:
-            "https://en.wikipedia.org/wiki/Michael_Jackson#/media/File:Michael_Jackson_in_1988.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Michael_Jackson_Cannescropped.jpg/170px-Michael_Jackson_Cannescropped.jpg",
           difficulty: "easy"
         },
         {
@@ -260,7 +261,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Dana_Carvey#/media/File:Dana_Carvey_at_the_Governor's_Ball_following_the_41st_Annual_Emmy_Awards_cropped.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Dana_Carvey_at_the_Governor%27s_Ball_following_the_41st_Annual_Emmy_Awards_cropped.jpg/137px-Dana_Carvey_at_the_Governor%27s_Ball_following_the_41st_Annual_Emmy_Awards_cropped.jpg",
           difficulty: "medium"
         },
         {
@@ -269,7 +270,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Pauly_Shore#/media/File:Pauly_Shore_is_Dead_Red_Carpet.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Pauly_Shore_is_Dead_Red_Carpet.jpg/1200px-Pauly_Shore_is_Dead_Red_Carpet.jpg",
           difficulty: "medium"
         },
         {
@@ -278,7 +279,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Bob_Newhart#/media/File:Comedian_Bob_Newhart.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Comedian_Bob_Newhart.jpg/220px-Comedian_Bob_Newhart.jpg",
           difficulty: "medium"
         },
         {
@@ -287,7 +288,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Rick_Moranis#/media/File:Rick_Moranis_at_the_62nd_Academy_Awards.jpg",
+            "ttps://upload.wikimedia.org/wikipedia/commons/b/bb/Rick_Moranis_at_the_62nd_Academy_Awards.jpg",
           difficulty: "easy"
         },
         {
@@ -296,7 +297,7 @@ exports.seed = function(knex) {
           yearDied: 2019,
           ageDied: 97,
           imageURL:
-            "https://en.wikipedia.org/wiki/Doris_Day#/media/File:Doris_Day_-_1957.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Doris_Day_-_1957.JPG/220px-Doris_Day_-_1957.JPG",
           difficulty: "medium"
         },
         {
@@ -323,7 +324,7 @@ exports.seed = function(knex) {
           yearDied: 2019,
           ageDied: 52,
           imageURL:
-            "https://en.wikipedia.org/wiki/Kristoff_St._John#/media/File:Kristoff_St._John_(46716837661).jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/9/97/Kristoff_St._John_%2846716837661%29.jpg",
           difficulty: "hard"
         },
         {
@@ -332,7 +333,7 @@ exports.seed = function(knex) {
           yearDied: 2019,
           ageDied: 52,
           imageURL:
-            "https://en.wikipedia.org/wiki/Luke_Perry#/media/File:Luke_Perry_by_Gage_Skidmore_2.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/d/db/Luke_Perry_by_Gage_Skidmore.jpg",
           difficulty: "easy"
         },
         {
@@ -341,7 +342,7 @@ exports.seed = function(knex) {
           yearDied: 2019,
           ageDied: 29,
           imageURL:
-            "https://en.wikipedia.org/wiki/Nipsey_Hussle#/media/File:Soundtrack_Beat_Battle_Judging_Panel_March2011_(cropped).jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Nipsey_Hussle_2013_December.jpg/1200px-Nipsey_Hussle_2013_December.jpg",
           difficulty: "medium"
         },
         {
@@ -350,7 +351,7 @@ exports.seed = function(knex) {
           yearDied: 2019,
           ageDied: 86,
           imageURL:
-            "https://en.wikipedia.org/wiki/Danny_Aiello#/media/File:Danny_Aiello.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/4/41/Danny_Aiello.jpg",
           difficulty: "medium"
         },
         {
@@ -359,7 +360,7 @@ exports.seed = function(knex) {
           yearDied: 2019,
           ageDied: 85,
           imageURL:
-            "https://en.wikipedia.org/wiki/Caroll_Spinney#/media/File:Carroll_Spinney_2014.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Carroll_Spinney_2014.jpg/220px-Carroll_Spinney_2014.jpg",
           difficulty: "medium"
         },
         {
@@ -368,7 +369,7 @@ exports.seed = function(knex) {
           yearDied: 2019,
           ageDied: 88,
           imageURL:
-            "https://en.wikipedia.org/wiki/Rip_Torn#/media/File:Rip_Torn_at_the_46th_Emmy_Awards_headcrop.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Rip_Torn_2015_%28cropped%29.jpg/220px-Rip_Torn_2015_%28cropped%29.jpg",
           difficulty: "medium"
         },
         {
@@ -377,7 +378,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Sinbad_(comedian)#/media/File:Entertainer_Sinbad.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/6/6e/Entertainer_Sinbad.jpg",
           difficulty: "easy"
         },
         {
@@ -386,7 +387,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Jaleel_White#/media/File:JaleelWhiteDec10.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/8/8f/Jaleel_White_at_the_2010_Streamy_Awards_%28cropped%29.jpg",
           difficulty: "easy"
         },
         {
@@ -395,7 +396,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Bronson_Pinchot#/media/File:Bronson_Pinchot_2012.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/8/87/Bronson_Pinchot_2012.jpg",
           difficulty: "hard"
         },
         {
@@ -404,7 +405,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Stephen_Collins#/media/File:Stephen_Collins_2014.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/e/e8/Stephen_Collins_2014.jpg",
           difficulty: "medium"
         },
         {
@@ -413,7 +414,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Chuck_Woolery#/media/File:Chuck_Woolery_2004.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Chuck_Woolery_2004_cropped.jpg/245px-Chuck_Woolery_2004_cropped.jpg",
           difficulty: "easy"
         },
         {
@@ -422,7 +423,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://www.imdb.com/name/nm0912201/mediaviewer/rm192275712",
+            "https://vignette3.wikia.nocookie.net/matchgame/images/6/68/Marsha-warfield-2-sized.jpg",
           difficulty: "hard"
         },
         {
@@ -431,7 +432,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/David_Faustino#/media/File:David_Faustino_by_Gage_Skidmore.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/c/ce/David_Faustino_2012.jpg",
           difficulty: "medium"
         },
         {
@@ -440,7 +441,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Renoly_Santiago#/media/File:Renoly_Santiago_2011_RSJL_UKNY.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Renoly_Santiago_2011_RSJL_UKNY.jpg/1200px-Renoly_Santiago_2011_RSJL_UKNY.jpg",
           difficulty: "hard"
         },
         {
@@ -449,7 +450,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Tom_Green#/media/File:Tom_Green_stand-up_2013_(cropped).jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Tom_Green_2006_%28141261244%29_%28cropped%29.jpg/1200px-Tom_Green_2006_%28141261244%29_%28cropped%29.jpg",
           difficulty: "hard"
         },
         {
@@ -458,7 +459,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Ben_Stein#/media/File:Actor_Ben_Stein.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/0/03/Ben_Stein.jpg",
           difficulty: "medium"
         },
         {
@@ -467,7 +468,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Gilbert_Gottfried#/media/File:Gilbert_Gottfried_2016.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Gilbert_Gottfried_2016.jpg/1200px-Gilbert_Gottfried_2016.jpg",
           difficulty: "medium"
         },
         {
@@ -475,7 +476,8 @@ exports.seed = function(knex) {
           isAlive: 1,
           yearDied: null,
           ageDied: null,
-          imageURL: "https://en.wikipedia.org/wiki/Tony_Danza",
+          imageURL:
+            "https://upload.wikimedia.org/wikipedia/commons/f/f9/Tony_Danza.jpg",
           difficulty: "hard"
         },
         {
@@ -484,7 +486,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/William_Forsythe_(actor)#/media/File:Forsythe.jpg",
+            "http://vignette1.wikia.nocookie.net/thementalist/images/1/11/3d1a9bdfbc546b3eb45bf4e92befe548.jpg",
           difficulty: "hard"
         },
         {
@@ -493,7 +495,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Neve_Campbell#/media/File:Neve_Campbell_04_(21268333696).jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Neve_Campbell_04_%2821268333696%29.jpg/250px-Neve_Campbell_04_%2821268333696%29.jpg",
           difficulty: "hard"
         },
         {
@@ -502,7 +504,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Paul_Reubens#/media/File:Paul_Reubens_by_Gage_Skidmore.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Paul_Reubens_SXSW_2016.jpg/1200px-Paul_Reubens_SXSW_2016.jpg",
           difficulty: "easy"
         },
         {
@@ -511,7 +513,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Lea_Thompson#/media/File:Lea_Thompson_February_2015_crop.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Lea_Thompson_February_2015_crop.JPG/1200px-Lea_Thompson_February_2015_crop.JPG",
           difficulty: "medium"
         },
         {
@@ -520,7 +522,7 @@ exports.seed = function(knex) {
           yearDied: 2003,
           ageDied: 51,
           imageURL:
-            "https://en.wikipedia.org/wiki/Gregory_Hines#/media/File:Gregory_Hines_1993.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Gregory_Hines_1993.jpg/1200px-Gregory_Hines_1993.jpg",
           difficulty: "medium"
         },
         {
@@ -529,7 +531,7 @@ exports.seed = function(knex) {
           yearDied: 2013,
           ageDied: 65,
           imageURL:
-            "https://en.wikipedia.org/wiki/Richard_Griffiths#/media/File:BAFTA_2007_(387023768).jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/0/0c/BAFTA_2007_%28387023768%29.jpg",
           difficulty: "hard"
         },
         {
@@ -538,7 +540,7 @@ exports.seed = function(knex) {
           yearDied: 2005,
           ageDied: 58,
           imageURL:
-            "https://en.wikipedia.org/wiki/John_Spencer_(actor)#/media/File:JohnSpencer-_Actor.jpg",
+            "https://upload.wikimedia.org/wikipedia/en/f/f3/JohnSpencer-_Actor.jpg",
           difficulty: "hard"
         },
         {
@@ -547,7 +549,7 @@ exports.seed = function(knex) {
           yearDied: 2006,
           ageDied: 67,
           imageURL:
-            "https://en.wikipedia.org/wiki/Paul_Gleason#/media/File:Paul_Gleason.jpg",
+            "https://upload.wikimedia.org/wikipedia/fa/thumb/6/6c/Paul_Gleason_Breakfast_Club.jpg/220px-Paul_Gleason_Breakfast_Club.jpg",
           difficulty: "hard"
         },
         {
@@ -556,7 +558,7 @@ exports.seed = function(knex) {
           yearDied: 2014,
           ageDied: 65,
           imageURL:
-            "https://en.wikipedia.org/wiki/James_Rebhorn#/media/File:James_Rebhorn_at_the_2009_Tribeca_Film_Festival.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/James_Rebhorn_at_the_2009_Tribeca_Film_Festival.jpg/1200px-James_Rebhorn_at_the_2009_Tribeca_Film_Festival.jpg",
           difficulty: "hard"
         },
         {
@@ -565,7 +567,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Jonathan_Taylor_Thomas#/media/File:Jonathan_Taylor_Thomas.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/4/43/Jonathan_Taylor_Thomas.jpg",
           difficulty: "easy"
         },
         {
@@ -574,7 +576,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Jason_David_Frank#/media/File:6.28.13JasonDavidFrankByLuigiNovi1.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/WW_Chicago_2014_-_Jason_David_Frank_01_%2815035617096%29.jpg/1200px-WW_Chicago_2014_-_Jason_David_Frank_01_%2815035617096%29.jpg",
           difficulty: "hard"
         },
         {
@@ -583,7 +585,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Mara_Wilson#/media/File:Mara_Wilson_(24515555898).jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Mara_Wilson_by_Gage_Skidmore.jpg/1200px-Mara_Wilson_by_Gage_Skidmore.jpg",
           difficulty: "hard"
         },
         {
@@ -592,7 +594,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://www.imdb.com/name/nm0641941/mediaviewer/rm4252090624",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Neal_McDonough_2015_(2).jpg/1200px-Neal_McDonough_2015_(2).jpg",
           difficulty: "hard"
         },
         {
@@ -601,7 +603,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/Marla_Sokoloff#/media/File:Marla_Sokoloff_(cropped).jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Marla_Sokoloff_%28cropped%29.jpg/225px-Marla_Sokoloff_%28cropped%29.jpg",
           difficulty: "hard"
         },
         {
@@ -610,7 +612,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://www.imdb.com/name/nm0217240/mediaviewer/rm343710976",
+            "http://vignette2.wikia.nocookie.net/westwing/images/a/a0/CaraDeLizia.jpg/revision/latest?cb=20131007044700",
           difficulty: "hard"
         },
         {
@@ -619,7 +621,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://www.imdb.com/name/nm0639432/mediaviewer/rm370318592",
+            "https://image.tmdb.org/t/p/w500/5K63RAJq6iwnOSM8ADpj9ARzIxq.jpg",
           difficulty: "hard"
         },
         {
@@ -628,7 +630,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://www.imdb.com/name/nm0004782/mediaviewer/rm4095628032",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Kimberlin_Brown_Pelzer.jpg/240px-Kimberlin_Brown_Pelzer.jpg",
           difficulty: "hard"
         },
         {
@@ -637,7 +639,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://www.imdb.com/name/nm0441814/mediaviewer/rm3156577792",
+            "https://img.networthpost.com/thumbs/441809_omri-katz/441809_omri-katz_1.jpeg",
           difficulty: "hard"
         },
         {
@@ -646,7 +648,7 @@ exports.seed = function(knex) {
           yearDied: 2020,
           ageDied: 45,
           imageURL:
-            "https://www.imdb.com/name/nm0395531/mediaviewer/rm2503311617",
+            "https://dailywikis.com/wp-content/uploads/2020/01/Silvio-Horta.jpg",
           difficulty: "hard"
         },
         {
@@ -655,7 +657,7 @@ exports.seed = function(knex) {
           yearDied: 2020,
           ageDied: 52,
           imageURL:
-            "https://en.wikipedia.org/wiki/Elizabeth_Wurtzel#/media/File:Elizabeth_Wurtzel_BBF_2010_Shankbone.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Elizabeth_Wurtzel_BBF_2010_Shankbone.jpg/220px-Elizabeth_Wurtzel_BBF_2010_Shankbone.jpg",
           difficulty: "hard"
         },
         {
@@ -664,7 +666,7 @@ exports.seed = function(knex) {
           yearDied: 2019,
           ageDied: 77,
           imageURL:
-            "https://en.wikipedia.org/wiki/John_Witherspoon_(actor)#/media/File:JohnWithersppon2019_(Cropped).png",
+            "https://celebritypictures.wiki/thumbs/0936762/0936762_7.jpeg",
           difficulty: "easy"
         },
         {
@@ -673,7 +675,7 @@ exports.seed = function(knex) {
           yearDied: 2019,
           ageDied: 70,
           imageURL:
-            "https://en.wikipedia.org/wiki/Eddie_Money#/media/File:Eddie_Money-276_(Cropped).jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/EM02035cropped-1.jpg/1200px-EM02035cropped-1.jpg",
           difficulty: "medium"
         },
         {
@@ -682,7 +684,7 @@ exports.seed = function(knex) {
           yearDied: 2018,
           ageDied: 20,
           imageURL:
-            "https://en.wikipedia.org/wiki/XXXTentacion#/media/File:Xxxtentacion_mugshot.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/XXXTENTACION_mugshot_12_28_2016.jpg/181px-XXXTENTACION_mugshot_12_28_2016.jpg",
           difficulty: "hard"
         },
         {
@@ -691,7 +693,7 @@ exports.seed = function(knex) {
           yearDied: 2018,
           ageDied: 49,
           imageURL:
-            "https://en.wikipedia.org/wiki/Verne_Troyer#/media/File:Verne_Troyer_Chiller_Theatre_Expo.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/1/1a/Verne_Troyer_%282009%29.jpg",
           difficulty: "easy"
         },
         {
@@ -700,16 +702,16 @@ exports.seed = function(knex) {
           yearDied: 2019,
           ageDied: 21,
           imageURL:
-            "https://en.wikipedia.org/wiki/Juice_Wrld#/media/File:Juice_Wrld_Interview.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Juice_Wrld_Interview.png/195px-Juice_Wrld_Interview.png",
           difficulty: "medium"
         },
         {
-          name: "Gustav Elijah Ahr\n",
+          name: "Lil Peep",
           isAlive: 0,
           yearDied: 2017,
           ageDied: 21,
           imageURL:
-            "https://en.wikipedia.org/wiki/Lil_Peep#/media/File:Lil-Peep_PrettyPuke_Photoshoot.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Lil_Peep_in_2016_by_Miller_Rodríguez_%28portrait_crop%29.jpg/250px-Lil_Peep_in_2016_by_Miller_Rodríguez_%28portrait_crop%29.jpg",
           difficulty: "hard"
         },
         {
@@ -718,7 +720,7 @@ exports.seed = function(knex) {
           yearDied: 2011,
           ageDied: 34,
           imageURL:
-            "https://en.wikipedia.org/wiki/Ryan_Dunn#/media/File:Ryan_Dunn_Jackass_3D_London_Premiere_2.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Ryan_Dunn_Jackass_3D_London_Premiere_2.jpg/1200px-Ryan_Dunn_Jackass_3D_London_Premiere_2.jpg",
           difficulty: "medium"
         },
         {
@@ -727,7 +729,7 @@ exports.seed = function(knex) {
           yearDied: 1989,
           ageDied: 48,
           imageURL:
-            "https://en.wikipedia.org/wiki/File:Graham_Chapman_Portrait.png",
+            "https://upload.wikimedia.org/wikipedia/en/f/f7/Graham_Chapman_Portrait.png",
           difficulty: "medium"
         },
         {
@@ -736,7 +738,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/File:John_Cleese_2008_bigger_crop.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/John_Cleese_at_1989_Oscars.jpg/170px-John_Cleese_at_1989_Oscars.jpg",
           difficulty: "easy"
         },
         {
@@ -744,7 +746,8 @@ exports.seed = function(knex) {
           isAlive: 1,
           yearDied: null,
           ageDied: null,
-          imageURL: "https://en.wikipedia.org/wiki/File:Terry_Gilliam.jpg",
+          imageURL:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Terry_Gilliam.jpg/1200px-Terry_Gilliam.jpg",
           difficulty: "medium"
         },
         {
@@ -753,7 +756,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/File:An_evening_with_Michael_Palin.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/7/75/Michael_Palin.jpg",
           difficulty: "medium"
         },
         {
@@ -762,7 +765,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "https://en.wikipedia.org/wiki/File:Terry_Jones_Monty_Python_O2_Arena_(cropped).jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/2/29/Pastor_Terry_Jones_before_the_March.jpg",
           difficulty: "medium"
         },
         {
@@ -770,7 +773,8 @@ exports.seed = function(knex) {
           isAlive: 1,
           yearDied: null,
           ageDied: null,
-          imageURL: "https://en.wikipedia.org/wiki/File:Eric_Idle_2014.jpg",
+          imageURL:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Eric_Idle_2014.jpg/1200px-Eric_Idle_2014.jpg",
           difficulty: "hard"
         }
       ]);
