@@ -288,7 +288,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "ttps://upload.wikimedia.org/wikipedia/commons/b/bb/Rick_Moranis_at_the_62nd_Academy_Awards.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/b/bb/Rick_Moranis_at_the_62nd_Academy_Awards.jpg",
           difficulty: "easy"
         },
         {
@@ -306,7 +306,7 @@ exports.seed = function(knex) {
           yearDied: 2019,
           ageDied: 51,
           imageURL:
-            "https://en.wikipedia.org/wiki/John_Singleton#/media/File:John_Singleton_2013_(cropped).jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/John_Singleton_2013.jpg/1200px-John_Singleton_2013.jpg",
           difficulty: "hard"
         },
         {
@@ -315,7 +315,7 @@ exports.seed = function(knex) {
           yearDied: 2019,
           ageDied: 33,
           imageURL:
-            "https://en.wikipedia.org/wiki/John_Coughlin_(figure_skater)#/media/File:2011_Skate_America_Caydee_DENNEY_John_COUGHLIN_3.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/4/4a/2011_Skate_America_Caydee_DENNEY_John_COUGHLIN_3.jpg",
           difficulty: "medium"
         },
         {
@@ -486,7 +486,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "http://vignette1.wikia.nocookie.net/thementalist/images/1/11/3d1a9bdfbc546b3eb45bf4e92befe548.jpg",
+            "https://vignette1.wikia.nocookie.net/thementalist/images/1/11/3d1a9bdfbc546b3eb45bf4e92befe548.jpg",
           difficulty: "hard"
         },
         {
@@ -612,7 +612,7 @@ exports.seed = function(knex) {
           yearDied: null,
           ageDied: null,
           imageURL:
-            "http://vignette2.wikia.nocookie.net/westwing/images/a/a0/CaraDeLizia.jpg/revision/latest?cb=20131007044700",
+            "https://vignette2.wikia.nocookie.net/westwing/images/a/a0/CaraDeLizia.jpg/revision/latest?cb=20131007044700",
           difficulty: "hard"
         },
         {
@@ -679,7 +679,7 @@ exports.seed = function(knex) {
           difficulty: "medium"
         },
         {
-          name: "Jahseh  Onfroy",
+          name: "Jahseh Onfroy",
           isAlive: 0,
           yearDied: 2018,
           ageDied: 20,
