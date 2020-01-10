@@ -784,61 +784,7 @@ exports.seed = function(knex) {
           email: "admin@email.com",
           username: "admin",
           password: "admin",
-          score: 55
-        },
-        {
-          email: "tony@starkindustries.com",
-          username: "iamironman",
-          password: "smartestavenger",
           score: 100
-        },
-        {
-          email: "hulk@smash.com",
-          username: "hulk",
-          password: "smash",
-          score: 0
-        },
-        {
-          email: "thor@godofthunder.com",
-          username: "thor",
-          password: "sparkles",
-          score: 10
-        },
-        {
-          email: "capamerica@aol.com",
-          username: "cap",
-          password: "shield",
-          score: 15
-        },
-        {
-          email: "clintbarton@gmail.com",
-          username: "hawkeye",
-          password: "i<3purple",
-          score: 90
-        },
-        {
-          email: "blackwidow@gmail.com",
-          username: "widowmaker",
-          password: "jf838jfdsf",
-          score: 95
-        },
-        {
-          email: "webslinger@starkindustries.com",
-          username: "yfnSpiderman",
-          password: "radioactive",
-          score: 93
-        },
-        {
-          email: "visionw@starkindustries.com",
-          username: "Vision",
-          password: "2020",
-          score: 100
-        },
-        {
-          email: "starlord@aol.com",
-          username: "StarLord",
-          password: "redbone",
-          score: 70
         }
       ]);
     });
